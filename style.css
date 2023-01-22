@@ -44,7 +44,7 @@
 .lucky-cat {
     position: absolute;
     top: 100px;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     animation: moveFromTop 1s linear;
 }
@@ -58,7 +58,7 @@
 
 .button.hpny-button {
     position: absolute;
-    bottom: 240px;
+    bottom: 160px;
     background-color: #F55050;
     color: #fff;
     animation: moveFromBottom 1s linear;
@@ -68,7 +68,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 120px;
+    bottom: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
