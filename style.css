@@ -115,7 +115,7 @@
     width: max-content;
     position: absolute;
     left: 50%;
-    bottom: 240px;
+    bottom: 160px;
     transform: translateX(-50%);
     display: none;
     background-color: #F55050;
