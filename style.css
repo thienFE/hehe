@@ -44,7 +44,7 @@
 .lucky-cat {
     position: absolute;
     top: 100px;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     animation: moveFromTop 1s linear;
 }
