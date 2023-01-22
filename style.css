@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes moveFromTop{
+    from {
+        top: -400px
+    }
+    to {
+        top: 100px
+    }
+}
+
+@keyframes moveFromBottom{
+    from {
+        bottom: -48px;
+    }
+    to {
+        bottom: 240px
+    }
+}
+
+@keyframes moveFromBottom2{
+    from {
+        bottom: -48px;
+    }
+    to {
+        bottom: 120px
+    }
+}
+
+.first-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-body.hide {
+    display: none;
+}
+
+.lucky-cat {
+    position: absolute;
+    top: 100px;
+    width: 80%;
+    margin: 0 auto;
+    animation: moveFromTop 1s linear;
+}
+
+.button {
+    padding: 12px 16px;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+.button.hpny-button {
+    position: absolute;
+    bottom: 240px;
+    background-color: #F55050;
+    color: #fff;
+    animation: moveFromBottom 1s linear;
+}
+
+.curve-arrow {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: moveFromBottom2 1s linear;
+}
+
+.curve-arrow img{
+    width: 48px;
+}
+
+.curve-arrow span {
+    font-size: 20px;
+    padding-top: 12px;
+    color: #F55050;
+}
+
+@keyframes bounce {
+    from {
+        top: -300px;
+    }
+
+    to {
+        top: 50%;
+    }
+}
+
+.second-body {
+    display: none;
+}
+
+.second-body.display {
+    display: block;
+}
+
+.baoLiXi {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 100%;
+    animation: bounce 1s cubic-bezier(0.85, 0.12, 0.195, 1);
+}
+
+.btn2 {
+    width: max-content;
+    position: absolute;
+    left: 50%;
+    bottom: 240px;
+    transform: translateX(-50%);
+    display: none;
+    background-color: #F55050;
+    color: #fff;
+}
+
+.btn2.display {
+    display: block;
+}
+
+video {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    transform: translateY(-50%);
+    display: none;
+}
+
+video.display {
+    display: block;
+}
